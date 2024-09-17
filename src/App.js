@@ -1,8 +1,9 @@
-
+import MyNavbar from "./components/MyNavbar";
+import Main from "./components/CRUD/Main";
 function App() {
   return (
     <div className="App">
-     <h1> Só Fé</h1>
+     <Main/>
     </div>
   );
 }
